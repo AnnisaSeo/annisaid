@@ -9,22 +9,27 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: 'supplier pasir dan batu jabodetabek ,aman dan terpercaya siap kirim ke semua wilayah jabodetabek',
+    author: 'Annisaseo',
+    siteUrl: 'https://blog.syukrieseo.com/',
+    description: 'produk terlaris dengan konten "butuh pasir segera?langsung hubungi SUMBERPASIR!melayani segala kebutuhan konstruksi seperti pasir , batu , dan juga lainnya pengiriman dilakukan di hari yang sama dengan hari pemesanan. pesan pasir di SUMBERPASIR dijamin anti worry!.kenapa beli pasir dan batu dan batu di sumberpasir 1.gratis ongkos kirim Harga lebih murah jika dekat dengan lokasi kami, di nego aja 2. gratis bongkar muat Tidak ada biaya Tambahan lainnya,langsung kita bongkar muat 3. Bayar ditempat (COD) pembayar aman & nyaman bisa langsung di lokasi tujuan',
+    Keyword:'digital marketing,gatsbyjs,seo'
   },
   plugins: [
-    `gatsby-plugin-image`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `blog`,
+        path: `${__dirname}/src/templates/`,
       },
     },
-    `gatsby-transformer-sharp`,
+    "gatsby-plugin-mdx" ,
+  ],
+},
+    `gatsby-plungin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -39,5 +44,5 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-  ],
-}
+  ']'
+'}'
